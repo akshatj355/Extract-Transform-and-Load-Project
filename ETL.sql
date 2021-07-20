@@ -1,8 +1,8 @@
-create database etlproject;
+Create database etlproject;
 
 use etlproject;
 
-create table counties (
+Create table counties (
    State varchar(2) NOT NULL,
   County varchar(100) NOT NULL,
   Population int(15),
